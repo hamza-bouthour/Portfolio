@@ -30,15 +30,7 @@
         padding: 0;
         list-style-type: none;
     }
-    /* .nav-list {
-        margin-right: 60px;
-        margin-left: 5px;
-        margin: auto;
-        margin-bottom: 10px;
-        margin-right: 10px;
-        list-style: none;
-        color: #e8f3f0;
-    }  */
+   
     li.nav-link a {
         /* display: flex;
         justify-content: left; */
@@ -59,6 +51,7 @@
     
     }
     button.photo-name {
+        text-decoration: none;
         color: white;
         background-color: transparent;
         margin-left: 15px;
@@ -69,6 +62,8 @@
         border: solid #7cabfe 2px;
         border-radius: 5px;
         /* margin-left: 95px; */
+        -webkit-appearance: none;
+    -moz-appearance: none;
     }
 
     button:hover {
@@ -91,6 +86,7 @@
         height: 350px;
         width: auto;
     }
+
     .bio-container {
         text-align: center;
     }
@@ -124,6 +120,18 @@
     }
     .description {
         font-size: 25px;
+    }
+    .hidden {
+        display: none;
+    }
+    .informations {
+        border-radius: 5px;
+        padding: 5px;
+        background-color: whitesmoke;
+        position: fixed;
+        border: 2px solid #7cabfe;
+        margin-left: 200px;
+        margin-top: -15px;
     }
 
 }
@@ -215,5 +223,8 @@
     }
     .description {
         font-size: 25px;
+    }
+    .hidden {
+        display: none;
     }
 }
