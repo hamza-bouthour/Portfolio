@@ -5,6 +5,7 @@
     }
   
     body {
+       
         padding: 6px;
         background-color: #2d0000;
         /* background-image: url(https://i.postimg.cc/g2dDnF0S/body1.jpg);        
@@ -13,6 +14,7 @@
         opacity: 0.9; */
     }
     .navigation-bar {
+        
         padding-top: 0px;
         margin-left: 10px;
         text-align: center;
@@ -40,17 +42,18 @@
     }
     
     li {
-
+font-size: 8px;
         text-align: center;
         display: inline-block;
         padding: 5px; 
        
-        margin: auto;
+        
         
         display: inline-block; 
     
     }
     button.photo-name {
+        font-size: 8px;
         text-decoration: none;
         color: white;
         background-color: transparent;
@@ -58,8 +61,8 @@
         margin-top: 10px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        padding: 7px;
-        border: solid #7cabfe 2px;
+        padding: 5px;
+        border: solid #7cabfe 1px;
         border-radius: 5px;
         /* margin-left: 95px; */
         -webkit-appearance: none;
