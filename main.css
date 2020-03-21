@@ -11,27 +11,41 @@
         background-size: cover;
     }
     .navigation-bar {
+        margin-right: 5px;
+        position: fixed;
        font-family: 'Montserrat', sans-serif;
         font-size: bold;
         border-bottom: 1px #d2d4fe solid  ;
         /* border: olive 3px solid; */
     }
     .nav-list {
+        margin-right: 60px;
+        /* margin-left: 5px; */
+        /* margin: auto; */
+        /* margin-bottom: 10px; */
+        margin-right: 10px;
         list-style: none;
         color: #e8f3f0;
     }
     li.nav-link a {
+        display: flex;
+        justify-content: left;
         text-decoration: none;
         color: #e8f3f0;
         
     }
     
     li {
-        margin-right: 10px;
+        /* padding: 5px; */
+        /* margin-left: 5px; */
+        /* margin-right: 10px; */
+        /* margin: auto; */
+        /* margin-right: 10px; */
         display: inline-block;
     
     }
     button.photo-name {
+        margin-left: 15px;
         margin-top: 10px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
