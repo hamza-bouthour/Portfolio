@@ -14,9 +14,9 @@
     }
     .navigation-bar {
         padding-top: 0px;
-        margin-left: 40px;
+        margin-left: 10px;
         text-align: center;
-        width: 80%;
+        width: 90%;
         position: fixed;
        font-family: 'Montserrat', sans-serif;
         font-size: bold;
@@ -77,7 +77,7 @@
    
     .bio-container {
         
-        margin-top: 20px;
+        margin-top: 50px;
     }
     .profile-photo {
         text-align: center;
