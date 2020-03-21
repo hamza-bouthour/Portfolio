@@ -3,57 +3,74 @@
     * {
         box-sizing: border-box;
     }
-    
+  
     body {
         padding: 6px;
-        background-image: url(https://i.postimg.cc/g2dDnF0S/body1.jpg);        
+        background-color: #2d0000;
+        /* background-image: url(https://i.postimg.cc/g2dDnF0S/body1.jpg);        
         background-repeat: no-repeat;
         background-size: cover;
+        opacity: 0.9; */
     }
     .navigation-bar {
-        margin-right: 5px;
+        padding-top: 0px;
+        margin-left: 40px;
+        text-align: center;
+        width: 80%;
         position: fixed;
        font-family: 'Montserrat', sans-serif;
         font-size: bold;
         border-bottom: 1px #d2d4fe solid  ;
-        /* border: olive 3px solid; */
+         
     }
-    .nav-list {
+    ul {
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+        list-style-type: none;
+    }
+    /* .nav-list {
         margin-right: 60px;
-        /* margin-left: 5px; */
-        /* margin: auto; */
-        /* margin-bottom: 10px; */
+        margin-left: 5px;
+        margin: auto;
+        margin-bottom: 10px;
         margin-right: 10px;
         list-style: none;
         color: #e8f3f0;
-    }
+    }  */
     li.nav-link a {
-        display: flex;
-        justify-content: left;
+        /* display: flex;
+        justify-content: left; */
         text-decoration: none;
         color: #e8f3f0;
         
     }
     
     li {
-        /* padding: 5px; */
-        /* margin-left: 5px; */
-        /* margin-right: 10px; */
-        /* margin: auto; */
-        /* margin-right: 10px; */
+
+        text-align: center;
         display: inline-block;
+        padding: 5px; 
+       
+        margin: auto;
+        
+        display: inline-block; 
     
     }
     button.photo-name {
+        color: white;
+        background-color: transparent;
         margin-left: 15px;
         margin-top: 10px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         padding: 7px;
-        border: solid #7a0a00 2px;
+        border: solid #7cabfe 2px;
         border-radius: 5px;
         /* margin-left: 95px; */
     }
+
     button:hover {
         cursor: pointer;
     }
@@ -64,7 +81,7 @@
     }
     .profile-photo {
         text-align: center;
-        border: 1px solid #7a0a00;
+        border: 1px solid #7cabfe;
         border-radius: 5px;
         /* margin-top: 20px;
         margin-right:65px; */
@@ -73,6 +90,9 @@
         /* float: right; */
         height: 350px;
         width: auto;
+    }
+    .bio-container {
+        text-align: center;
     }
     .bio-text {
         
@@ -97,7 +117,7 @@
     .screenshot {
         width: 350px;
         height: 250px;
-        border: #61334d solid 1px;
+        border: #7cabfe solid 1px;
         border-radius: 5px;
         /* width: auto;
         height: auto; */
