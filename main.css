@@ -6,7 +6,9 @@
   
     body {    
         padding: 6px;
-        background-color: #2d0000; 
+        
+        background-color: #13414d;
+        background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
     }
     .navigation-bar {
         
@@ -17,7 +19,7 @@
         position: fixed;
        font-family: 'Montserrat', sans-serif;
         font-size: bold;
-        border-bottom: 1px #d2d4fe solid  ;
+        border-bottom: 1px #246d8f solid  ;
          
     }
     ul {
@@ -34,11 +36,13 @@
     }
     
     li {
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
         display: inline-block;
         padding: 5px;        
         display: inline-block; 
+        margin-left: 25px;
+        margin-right: 25px;
     
     }
 
@@ -87,11 +91,12 @@
         font-family: 'Montserrat', sans-serif;
     }
 
-    .demo-quiz {
+    .demo {
         font-family: 'Montserrat', sans-serif;
         color: #e8e5ff;
         text-align: center;
         margin-top: 100px;
+        margin-bottom: 20px;
     }
 
     div.demo-quiz h3 {
@@ -121,6 +126,10 @@
         border: 2px solid #7cabfe;
         margin-left: 200px;
         margin-top: -15px;
+    }
+    a.repository-link {
+        text-decoration: none;
+        color: #7cabfe;
     }
 }
 
