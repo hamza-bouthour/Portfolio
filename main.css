@@ -1,4 +1,4 @@
-@media screen and (max-width : 720px) and (min-width : 100px) {
+@media screen and (max-width : 720px) {
 
     * {
         box-sizing: border-box;
@@ -47,15 +47,15 @@
     }
 
     button.photo-name {
-        font-size: 8px;
+        
+        font-size: 14px;
         text-decoration: none;
         color: white;
         background-color: transparent;
         margin-left: 15px;
         margin-top: 10px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: bold;
-        padding: 5px;
+        padding: 3px;
         border: solid #7cabfe 1px;
         border-radius: 5px;
         -webkit-appearance: none;
@@ -104,7 +104,7 @@
     }
 
     .screenshot {
-        width: 500px;
+        width: 350px;
         border: #7cabfe solid 1px;
         border-radius: 5px;
     }
@@ -132,15 +132,17 @@
     }
 
     .mobile-screenshot {
-        width: 119px;
+        border:#6c787c solid 1px;
+        width: 84px;
         border-radius: 5px;
     }
     h3 a {
         color: white;
     }
   
+}
+@media screen and (min-width : 720px) {
 
-@media screen and (max-width: 3000px) and (min-width:720px) {
     * {
         box-sizing: border-box;
     }
@@ -231,5 +233,6 @@
     }
     .hidden {
         display: none;
+ 
     }
 }
