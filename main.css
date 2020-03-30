@@ -104,8 +104,7 @@
     }
 
     .screenshot {
-        width: 350px;
-        height: 250px;
+        width: 500px;
         border: #7cabfe solid 1px;
         border-radius: 5px;
     }
@@ -131,7 +130,15 @@
         text-decoration: none;
         color: #7cabfe;
     }
-}
+
+    .mobile-screenshot {
+        width: 119px;
+        border-radius: 5px;
+    }
+    h3 a {
+        color: white;
+    }
+  
 
 @media screen and (max-width: 3000px) and (min-width:720px) {
     * {
