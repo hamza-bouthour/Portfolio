@@ -95,7 +95,7 @@
         font-family: 'Montserrat', sans-serif;
         color: #e8e5ff;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 70px;
         margin-bottom: 20px;
     }
 
@@ -104,7 +104,7 @@
     }
 
     .screenshot {
-        width: 350px;
+        width: 400px;
         border: #7cabfe solid 1px;
         border-radius: 5px;
     }
@@ -133,7 +133,7 @@
 
     .mobile-screenshot {
         border:#6c787c solid 1px;
-        width: 84px;
+        width: 100px;
         border-radius: 5px;
     }
     h3 a {
