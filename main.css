@@ -10,6 +10,12 @@
         background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
     }
 
+    .nav-list {
+        display: flex;
+        justify-content: space-evenly;
+        color: #e8f3f0;
+    }
+
     .navigation-bar { 
         padding-top: 0px;
         margin-left: 10px;
@@ -45,18 +51,14 @@
     }
 
     button.photo-name {
-        font-size: 14px;
+        font-size: 10px;
         text-decoration: none;
         color: white;
         background-color: transparent;
-        margin-left: 15px;
-        margin-top: 10px;
         font-family: 'Montserrat', sans-serif;
-        padding: 3px;
+        padding: 2px;
         border: solid #7cabfe 1px;
         border-radius: 5px;
-        -webkit-appearance: none;
-        -moz-appearance: none;
     }
 
     button:hover {
@@ -115,13 +117,18 @@
     }
 
     .informations-mobile {
+        color: white;
+        position: absolute;
         border-radius: 5px;
         padding: 5px;
-        background-color: whitesmoke;
-        position: fixed;
+        background-color:#13414d;
         border: 2px solid #7cabfe;
-        margin-left: 200px;
+        margin-left: 190px;
         margin-top: -15px;
+    }
+
+    div.informations-mobile a {
+        color: white;
     }
 
     a.repository-link {
