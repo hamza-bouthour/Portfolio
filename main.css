@@ -118,7 +118,7 @@
 
     .informations-mobile {
         color: white;
-        position: absolute;
+        /* position: absolute; */
         border-radius: 5px;
         padding: 5px;
         background-color:#13414d;
