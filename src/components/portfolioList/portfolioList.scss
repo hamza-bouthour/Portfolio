@@ -1,0 +1,14 @@
+@import "../global.scss";
+
+.porftolioList {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    &.active {
+        background-color: $nav-color2;
+        color: #fff
+    }
+}
