@@ -39,7 +39,7 @@ export default function Portfolio() {
                 setData(webPortfolio)
                 break;
             case "mobile":
-                setData(backendPortfolio)
+                setData(mobilePortfolio)
                 break;
             case "all":
                 setData(allData)
@@ -66,9 +66,19 @@ export default function Portfolio() {
             <div className="container">
                 {data.map(item => {
                     return (
-                        <div className="item">
-                            <img src={item.image} />
-                            <h3>{item.name}</h3>
+                        <div className="wrapper">
+                            <div className="item">
+                                <img src={item.image} />
+                                <h3>{item.title}</h3>
+                            </div>
+                            <div className="techContainer">
+                                {item.technologies.map(tech => {
+                                    return (
+                                        <img src={tech.image} alt={tech.name}/>
+                                    )
+                                })}
+                            </div>
+
                         </div>
                     )
                 })}
