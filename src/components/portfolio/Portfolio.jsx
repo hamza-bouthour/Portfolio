@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./portfolio.scss";
 import PortfolioList from "../portfolioList/portfolioList";
 import {
-    skillsIcons,
     backendPortfolio,
     mobilePortfolio,
     webPortfolio } from "../../data";
@@ -47,7 +46,7 @@ export default function Portfolio() {
             default :
                 setData(allData)
         }
-    }, [selected])
+    }, [selected, allData])
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
@@ -68,7 +67,7 @@ export default function Portfolio() {
                     return (
                         <div className="wrapper">
                             <div className="item">
-                                <img src={item.image} />
+                                <img src={item.image} alt={item.title}/>
                                 <h3>{item.title}</h3>
                             </div>
                             <div className="techContainer">

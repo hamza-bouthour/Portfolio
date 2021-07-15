@@ -1,15 +1,13 @@
-import { useEffect, useRef } from "react";
+
 import "./intro.scss";
-import { init } from 'ityped';
+
 
 export default function Intro() {
-
-    const descriptionRef = useRef()
     return (
         <div className="intro" id="intro">
             <div className="left">
                 <div className="imageContainer">
-                    <img src="assets/resized-halfbody-removebg-preview.png" alt=""/>
+                    <img src="assets/resized-halfbody-removebg-preview.png" alt="HamzaPhoto"/>
                 </div>
             </div>
             <div className="right">
@@ -19,7 +17,7 @@ export default function Intro() {
                     <h3>Web and Mobile developer</h3>
                 </div>
                 <a href="#portfolio" >
-                    <img src="assets/arrowdown.png"/>
+                    <img src="assets/arrowdown.png" alt="arrow" />
                 </a>
             </div>
         </div>

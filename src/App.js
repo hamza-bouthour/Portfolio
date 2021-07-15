@@ -7,6 +7,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/contact";
 import Menu from "./components/menu/Menu";
 import "./app.scss"
+
 function App() {
   const [navOpen, setNavOpen] = useState(false)
   return (
