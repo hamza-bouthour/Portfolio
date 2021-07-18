@@ -12,7 +12,7 @@ export default function AboutMe() {
             </div>
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/music1.jpg" /> 
+                    <img src="assets/music1.jpg" alt="music" /> 
                 </div>
                 <div className="textContainer">
                     <h3>Passion</h3>
@@ -23,7 +23,7 @@ export default function AboutMe() {
             </div>
             <div className="right">
                 <div className="imgContainer">
-                    <img src="assets/music23.jpg" /> 
+                    <img src="assets/music23.jpg" alt="music"/> 
                 </div>
                 <div className="textContainer">
                     <h3>Dedication</h3>
