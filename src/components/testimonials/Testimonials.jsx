@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import  { useState } from "react";
 import "./testimonials.scss";
-import { skillsImages, skillsIcons } from "../../data";
+import { skillsIcons } from "../../data";
 
 function generatePosition() {
     const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
@@ -36,14 +36,14 @@ export default function Testimonials() {
         height: "45px",
         margin: "20px",
     }
-    const caughtState = {
-        backgroundColor: "black",
-        opacity: 0.3,
-        width: "45px",
-        height: "45px",
-        margin: "20px",
-        caught: true
-    }
+    // const caughtState = {
+    //     backgroundColor: "black",
+    //     opacity: 0.3,
+    //     width: "45px",
+    //     height: "45px",
+    //     margin: "20px",
+    //     caught: true
+    // }
 
 
     const [boxStyle1, setBoxStyle1] = useState(flexState);
@@ -57,19 +57,19 @@ export default function Testimonials() {
     const [boxStyle9, setBoxStyle9] = useState(flexState);
     const [boxStyle10, setBoxStyle10] = useState(flexState);
 
-    function resetIcons() {
-        console.log('lol')
-        setBoxStyle1(flexState)
-        setBoxStyle2(flexState)
-        setBoxStyle3(flexState)
-        setBoxStyle4(flexState)
-        setBoxStyle5(flexState)
-        setBoxStyle6(flexState)
-        setBoxStyle7(flexState)
-        setBoxStyle8(flexState)
-        setBoxStyle9(flexState)
-        setBoxStyle10(flexState)
-    }
+    // function resetIcons() {
+    //     console.log('lol')
+    //     setBoxStyle1(flexState)
+    //     setBoxStyle2(flexState)
+    //     setBoxStyle3(flexState)
+    //     setBoxStyle4(flexState)
+    //     setBoxStyle5(flexState)
+    //     setBoxStyle6(flexState)
+    //     setBoxStyle7(flexState)
+    //     setBoxStyle8(flexState)
+    //     setBoxStyle9(flexState)
+    //     setBoxStyle10(flexState)
+    // }
     
     return (
         <div className="testimonials" id="testimonials">

@@ -7,8 +7,8 @@ export default function AboutMe() {
         <div className="aboutme" id="aboutme">
             <div className="introduction">
                 <h1>A little about me</h1>
-                <a href="google.com" ><img src="assets/instagram.png" className="socialIcons" /></a>
-                <a href="google.com" ><img src="assets/facebook.png" className="socialIcons" /></a>
+                <a href="google.com" ><img src="assets/instagram.png" className="socialIcons" alt="logo" /></a>
+                <a href="google.com" ><img src="assets/facebook.png" className="socialIcons" alt="logo"/></a>
             </div>
             <div className="left">
                 <div className="imgContainer">

@@ -67,13 +67,13 @@ export default function Portfolio() {
                     return (
                         <div className="wrapper">
                             <div className="item">
-                                <img src={item.image} alt={item.title}/>
+                                <img src={item.image} alt="logo"/>
                                 <h3>{item.title}</h3>
                             </div>
                             <div className="techContainer">
                                 {item.technologies.map(tech => {
                                     return (
-                                        <img src={tech.image} alt={tech.name}/>
+                                        <img src={tech.image} alt="logo"/>
                                     )
                                 })}
                             </div>
@@ -83,7 +83,7 @@ export default function Portfolio() {
                 })}
 
             </div>
-                <img className="iconSvg" src="assets/projects.svg" />
+                <img className="iconSvg" src="assets/projects.svg" alt="logo"/>
         </div>
     )
 }
