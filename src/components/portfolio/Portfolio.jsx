@@ -8,8 +8,8 @@ import {
 
 const list = [
     {
-        id: "all",
-        title: "All"
+        id: "featured",
+        title: "Featured"
     },
     {
         id: "web",
@@ -26,7 +26,7 @@ const list = [
 ]
 
 export default function Portfolio() {
-    const [selected, setSelected] = useState("all");
+    const [selected, setSelected] = useState("featured");
     const [data, setData] = useState([]);
     const allData = backendPortfolio.concat(mobilePortfolio, webPortfolio);
     useEffect(() => {
@@ -40,13 +40,13 @@ export default function Portfolio() {
             case "mobile":
                 setData(mobilePortfolio)
                 break;
-            case "all":
+            case "featured":
                 setData(allData)
                 break;
             default :
                 setData(allData)
         }
-    }, [selected, allData])
+    }, [selected])
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
@@ -83,7 +83,7 @@ export default function Portfolio() {
                 })}
 
             </div>
-
+                <img className="iconSvg" src="assets/projects.svg" />
         </div>
     )
 }

@@ -6,6 +6,7 @@ import Works from "./components/works/Works";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/contact";
 import Menu from "./components/menu/Menu";
+import AboutMe from "./components/aboutMe/aboutMe";
 import "./app.scss"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Portfolio />
           <Works />
           <Testimonials />
+          <AboutMe />
           <Contact />
       </div>
     </div>

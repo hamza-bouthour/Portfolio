@@ -10,6 +10,18 @@ export const skillsIcons = {
     css: "assets/cssIcon.png",
     redux: "assets/redux.png"
 }
+export const skillsImages = [
+    "assets/reactIconn.png",
+    "assets/bootstrapIcon.png",
+    "assets/sass2.png",
+    "assets/reactMative.png",
+    "assets/expressIcon.webp",
+    "assets/mySqlIcon.png",
+    "assets/expoIcon.webp",
+    "assets/mongoDbIcon.png",
+    "assets/cssIcon.png",
+    "assets/redux.png"
+]
 export const backendPortfolio = [
     {
         id: 1,

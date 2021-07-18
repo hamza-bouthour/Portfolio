@@ -1,11 +1,25 @@
 @import "../global.scss";
+
 .portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #fff;
+    position: relative;
+    height: 650px !important;
+    
+
+    @include mobile {
+        height: calc(100vh - 30px);
+    }
 
     h1 {
         font-style: 50px;
+
+        @include mobile {
+            font-style: 20px;
+            overflow-y: hidden;
+        }
     }
 
     ul {
@@ -13,6 +27,14 @@
         padding: 0;
         list-style: none;
         display: flex;
+        overflow: hidden;
+        
+
+        @include mobile {
+            margin: 10px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         
     }
     .container {
@@ -21,6 +43,10 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+
+        @include mobile {
+            width: 100%;
+        }
 
         .wrapper {
             display: flex;
@@ -40,8 +66,17 @@
                 color: #fff;
                 position: relative;
                 transition: all .5s ease;
+                cursor: pointer;
+                -webkit-box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.83); 
+                box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.83);
+
+                @include mobile {
+                    width: 130px;
+                    height: 100px;
+                }
     
                 h3 {
+                    
                     position: absolute;
                     font-size: 20px;
                 }
@@ -57,7 +92,7 @@
                     img {
                         opacity: 0.2;
                         z-index: 0;
-                        cursor: pointer;
+                       
                     }
                 }
             }
@@ -73,6 +108,12 @@
             }
         
         }
+    }
+    .iconSvg {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 20%;
     }
 
 }

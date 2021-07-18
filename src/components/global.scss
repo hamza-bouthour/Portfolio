@@ -14,7 +14,16 @@ $test-2 :#3f4045;
 $test-3: #546a7b;
 
 
-$back-color: white;
-$nav-color1: #036197;
+$back-color: rgb(235, 211, 211);
+$nav-color1: crimson;
 $nav-color2: crimson;
 $img-profile-box: #009ffd;
+
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}

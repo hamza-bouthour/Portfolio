@@ -6,6 +6,12 @@
     padding: 7px;
     border-radius: 10px;
     cursor: pointer;
+    overflow-y: hidden;
+    
+
+    @include mobile {
+        margin-right: 20px;
+    }
 
     &.active {
         background-color: $nav-color2;
