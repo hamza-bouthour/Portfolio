@@ -46,7 +46,7 @@ export default function Portfolio() {
             default :
                 setData(allData)
         }
-    }, [selected])
+    }, [selected, allData ])
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
