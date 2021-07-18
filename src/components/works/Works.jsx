@@ -54,7 +54,7 @@ export default function Works() {
               <div className="left">
                 <div className="leftContainer">
                   <div className="imgContainer">
-                    <img src={d.icon} alt="" />
+                    <img src={d.icon} alt="logo" />
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
@@ -64,7 +64,7 @@ export default function Works() {
               <div className="right">
                 <img
                   src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
+                  alt="logo"
                 />
               </div>
             </div>
@@ -74,16 +74,16 @@ export default function Works() {
       <img
         src="assets/arrowRight.svg"
         className="arrow left"
-        alt=""
+        alt="logo"
         onClick={() => handleClick("left")}
       />
       <img
         src="assets/arrowRight.svg"
         className="arrow right"
-        alt=""
+        alt="logo"
         onClick={() => handleClick()}
       />
-     <img src="assets/body.svg" className="svgworks" />
+     <img src="assets/body.svg" className="svgworks" alt="logo" />
     </div>
   );
 }
