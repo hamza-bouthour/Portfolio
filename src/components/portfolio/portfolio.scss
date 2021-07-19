@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+    // color: #fff;
     position: relative;
     height: 650px !important;
     
 
     @include mobile {
-        height: calc(100vh - 30px);
+        height: 800px !important;
     }
 
     h1 {
@@ -69,7 +69,7 @@
                 cursor: pointer;
                 -webkit-box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.83); 
                 box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.83);
-
+                animation: myAnim 1s ease 0s 1 normal forwards;
                 @include mobile {
                     width: 130px;
                     height: 100px;
@@ -104,6 +104,7 @@
                 img {
                     width: 30px;
                     height: 30px;
+                    margin: 5px;
                 }
             }
         

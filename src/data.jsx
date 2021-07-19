@@ -1,13 +1,13 @@
 export const skillsIcons = {
-    react: "assets/reactIconn.png",
+    react: "assets/react.png",
     bootstrap: "assets/bootstrapIcon.png",
-    sass: "assets/sass2.png",
-    reactNative: "assets/reactMative.png",
+    sass: "assets/sass.png",
+    reactNative: "assets/reactNative.png",
     express: "assets/expressIcon.webp",
     mysql: "assets/mySqlIcon.png",
-    expo: "assets/expoIcon.webp",
+    expo: "assets/expo.png",
     mongoDb: "assets/mongoDbIcon.png",
-    css: "assets/cssIcon.png",
+    css: "assets/css.png",
     redux: "assets/redux.png"
 }
 export const skillsImages = [

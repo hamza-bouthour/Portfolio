@@ -15,20 +15,26 @@ export default function Contact() {
                 <h1>Let's work together</h1>
                 <ul>
                     <li className="itemContainer">
-                        <Mail className="icon" id="emailIcon"/>
-                        <span>bouthour.h@gmail.com</span>
+                        <a href="mailto:bouthour.h@gmail.com">
+                            <Mail className="icon" id="emailIcon"/>
+                            <span>bouthour.h@gmail.com</span>
+                        </a>
                     </li>
                     <li className="itemContainer">
                         <Person className="icon"id="phoneIcon"/>
                         <span>+1 209 321 0491</span>
                     </li>
                     <li className="itemContainer">
-                        <LinkedInIcon className="icon" id="LinIcon"/>
-                        <span>LinkedIn</span>
+                        <a href="https://www.linkedin.com/in/hamza-bouthour-a0265919b/">
+                            <LinkedInIcon className="icon" id="LinIcon"/>
+                            <span>LinkedIn</span>
+                        </a>
                     </li>
                     <li className="itemContainer">
-                        <GitHubIcon className="icon" id="githubIcon"/>
-                        <span>Github</span>
+                        <a href="https://github.com/hamza-bouthour">
+                            <GitHubIcon className="icon" id="githubIcon"/>
+                            <span>Github</span>
+                        </a>
                     </li>
                     <li className="itemContainer">
                         <PinDropIcon className="icon" id="pinIcon" />

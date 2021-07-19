@@ -21,8 +21,8 @@ function generatePosition() {
     // })
     return {
         position: "absolute",
-        width: "45px",
-        height: "45px",
+        width: "85px",
+        height: "85px",
         margin: "20px",
         top: top + "px",
         left: left + "px"
@@ -32,8 +32,8 @@ function generatePosition() {
 
 export default function Testimonials() {
     const flexState = {
-        width: "45px",
-        height: "45px",
+        width: "85px",
+        height: "85px",
         margin: "20px",
     }
     // const caughtState = {
@@ -83,7 +83,7 @@ export default function Testimonials() {
                 <img key={6} style={boxStyle6} className="skillBox" src={skillsIcons.mysql}  alt="logo" onMouseOver={() => {(!boxStyle6.caught && setTimeout(() => {setBoxStyle6(generatePosition())}, 100) )}} />
                 <img key={7} style={boxStyle7} className="skillBox" src={skillsIcons.expo}  alt="logo" onMouseOver={() => {(!boxStyle7.caught && setTimeout(() => {setBoxStyle7(generatePosition())}, 100) )}} />
                 <img key={8} style={boxStyle8} className="skillBox" src={skillsIcons.mongoDb}  alt="logo" onMouseOver={() => {(!boxStyle8.caught && setTimeout(() => {setBoxStyle8(generatePosition())}, 100) )}} />
-                <img key={9} style={boxStyle9} className="skillBox" src={skillsIcons.flexState}  alt="logo" onMouseOver={() => {(!boxStyle9.caught && setTimeout(() => {setBoxStyle9(generatePosition())}, 100) )}} />
+                <img key={9} style={boxStyle9} className="skillBox" src={skillsIcons.css}  alt="logo" onMouseOver={() => {(!boxStyle9.caught && setTimeout(() => {setBoxStyle9(generatePosition())}, 100) )}} />
                 <img key={10} style={boxStyle10} className="skillBox" src={skillsIcons.redux}  alt="logo" onMouseOver={() => {(!boxStyle10.caught && setTimeout(() => {setBoxStyle10(generatePosition())}, 100) )}} />
             </div>
         </div>

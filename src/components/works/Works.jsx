@@ -1,35 +1,52 @@
 import { useState } from "react";
 import "./works.scss";
 
+
+// Developing front end website architecture.
+// ● Designing user interactions on web pages.
+// ● Developing back end website applications.
+// ● Creating servers and databases for functionality.
+// ● Ensuring cross-platform optimization for mobile phones.
+// ● Ensuring responsiveness of applications.
+// ● Working alongside graphic designers for web design features.
+// ● Seeing through a project from conception to finished product.
+// ● Designing and developing APIs.
+// ● Meeting both technical and consumer needs.
+// ● Staying abreast of developments in web applications and programming languages.
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      title: "Front-end web application",
+      desc: ["Designing user interactions on web pages.", "Ensuring responsiveness of applications.", "Developing features to enhance user experience.", "building reusable code for future use.", "Proficiency in HTML, CSS, JavaScript, JQuery and React."],
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "frontendAppliction.png",
     },
     {
       id: "2",
       icon: "./assets/globe.png",
       title: "Mobile Application",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      desc: ["Build pixel-perfect, buttery smooth UIs across both mobile platforms.", "Maintain code and write automated tests to ensure the product is of the highest quality.", "Transition existing React web apps to React Native."],
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "assets/mobileApplication.jpg",
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Back-end",
+      desc: ["Creating database schemas that represent and support business processes.", "Services / API development and integration.", "Implement multi-factor authentication.", "Proficient understanding of code versioning tools, such as Git"],
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "assets/backendApplication.jpg",
+    },
+    {
+      id: "4",
+      icon: "./assets/writing.png",
+      title: "Also",
+      desc: ["Troubleshoot and debug applications", "Conduct functional and non-functional testing.", "Experience with automated testing suites, Jest.", "Follow new and emerging technologies.", "Refactoring, rewriting, and evolving software."],
+      img:
+        "alsoApplication.webp",
     },
   ];
 
@@ -53,17 +70,22 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
+                  {/* <div className="imgContainer">
                     <img src={d.icon} alt="logo" />
-                  </div>
+                  </div> */}
                   <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <ol>
+                    {d.desc.map(x => {
+                      return (
+                        <li>&#x2022; {x}</li>
+                      )
+                    })}
+                  </ol>
                 </div>
               </div>
               <div className="right">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src="assets/webdevelopment.svg"
                   alt="logo"
                 />
               </div>

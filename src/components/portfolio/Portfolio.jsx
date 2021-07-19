@@ -66,10 +66,10 @@ export default function Portfolio() {
                 {data.map(item => {
                     return (
                         <div className="wrapper">
-                            <div className="item">
+                            <a className="item" href={item.repo} target="_blank">
                                 <img src={item.image} alt="logo"/>
                                 <h3>{item.title}</h3>
-                            </div>
+                            </a>
                             <div className="techContainer">
                                 {item.technologies.map(tech => {
                                     return (
