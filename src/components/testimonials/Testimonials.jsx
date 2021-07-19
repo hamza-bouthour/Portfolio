@@ -21,8 +21,8 @@ function generatePosition() {
     // })
     return {
         position: "absolute",
-        width: "85px",
-        height: "85px",
+        width: "65px",
+        height: "65px",
         margin: "20px",
         top: top + "px",
         left: left + "px"
@@ -32,8 +32,8 @@ function generatePosition() {
 
 export default function Testimonials() {
     const flexState = {
-        width: "85px",
-        height: "85px",
+        width: "65px",
+        height: "65px",
         margin: "20px",
     }
     // const caughtState = {
