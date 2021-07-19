@@ -15,7 +15,7 @@ export default function Contact() {
                 <h1>Let's work together</h1>
                 <ul>
                     <li className="itemContainer">
-                        <a href="mailto:bouthour.h@gmail.com">
+                        <a href="mailto:bouthour.h@gmail.com" >
                             <Mail className="icon" id="emailIcon"/>
                             <span>bouthour.h@gmail.com</span>
                         </a>
@@ -25,13 +25,13 @@ export default function Contact() {
                         <span>+1 209 321 0491</span>
                     </li>
                     <li className="itemContainer">
-                        <a href="https://www.linkedin.com/in/hamza-bouthour-a0265919b/">
+                        <a href="https://www.linkedin.com/in/hamza-bouthour-a0265919b/" rel="noreferrer" target="_blank">
                             <LinkedInIcon className="icon" id="LinIcon"/>
                             <span>LinkedIn</span>
                         </a>
                     </li>
                     <li className="itemContainer">
-                        <a href="https://github.com/hamza-bouthour">
+                        <a href="https://github.com/hamza-bouthour" target="_blank" rel="noreferrer">
                             <GitHubIcon className="icon" id="githubIcon"/>
                             <span>Github</span>
                         </a>
