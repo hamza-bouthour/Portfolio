@@ -2,7 +2,7 @@
 .menu {
     width: 300px;
     height: 100vh;
-    background-color: $nav-color2;
+    background-color: $main-color;
     position: fixed;
     top: 0;
     right: -300px;
@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: center;
     transition: all 1s ease;
-    
 
     &.active {
         right: 0;

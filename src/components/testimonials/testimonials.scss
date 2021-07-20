@@ -2,11 +2,13 @@
 
 .testimonials {
     position: relative;
-    height: 350px !important;
+    height: 250px !important;
     align-items: center;
     text-align: center;
-    color: white;
     overflow: hidden;
+    @include mobile {
+        height: 480px !important;
+    }
 
     .wrapper {
         display: flex;
@@ -19,7 +21,6 @@
         }
 
         .skillBox {
-            // position: absolute;
             width: 95px;
             height: 95px;
             margin: 20px;

@@ -1,18 +1,6 @@
 import { useState } from "react";
 import "./works.scss";
 
-
-// Developing front end website architecture.
-// ● Designing user interactions on web pages.
-// ● Developing back end website applications.
-// ● Creating servers and databases for functionality.
-// ● Ensuring cross-platform optimization for mobile phones.
-// ● Ensuring responsiveness of applications.
-// ● Working alongside graphic designers for web design features.
-// ● Seeing through a project from conception to finished product.
-// ● Designing and developing APIs.
-// ● Meeting both technical and consumer needs.
-// ● Staying abreast of developments in web applications and programming languages.
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
@@ -20,7 +8,7 @@ export default function Works() {
       id: "1",
       icon: "./assets/mobile.png",
       title: "Front-end web application",
-      desc: ["Designing user interactions on web pages.", "Ensuring responsiveness of applications.", "Developing features to enhance user experience.", "building reusable code for future use.", "Proficiency in HTML, CSS, JavaScript, JQuery and React."],
+      desc: ["Designing user interactions on web pages.", "Ensuring responsiveness of applications.", "Developing features to enhance user experience.", "building reusable code for future use.", "Proficiency in HTML, CSS, JavaScript, JQuery and React.", "Refactoring, rewriting, and evolving software."],
       img:
         "frontendAppliction.png",
     },
@@ -28,7 +16,7 @@ export default function Works() {
       id: "2",
       icon: "./assets/globe.png",
       title: "Mobile Application",
-      desc: ["Build pixel-perfect, buttery smooth UIs across both mobile platforms.", "Maintain code and write automated tests to ensure the product is of the highest quality.", "Transition existing React web apps to React Native."],
+      desc: ["Build pixel-perfect, buttery smooth UIs across both mobile platforms.","Troubleshoot and debug applications", "Maintain code and write automated tests to ensure the product is of the highest quality.", "Transition existing React web apps to React Native."],
       img:
         "assets/mobileApplication.jpg",
     },
@@ -36,17 +24,9 @@ export default function Works() {
       id: "3",
       icon: "./assets/writing.png",
       title: "Back-end",
-      desc: ["Creating database schemas that represent and support business processes.", "Services / API development and integration.", "Implement multi-factor authentication.", "Proficient understanding of code versioning tools, such as Git"],
+      desc: ["Creating database schemas that represent and support business processes.","Conduct functional and non-functional testing.", "Services / API development and integration.", "Implement multi-factor authentication.", "Proficient understanding of code versioning tools, such as Git"],
       img:
         "assets/backendApplication.jpg",
-    },
-    {
-      id: "4",
-      icon: "./assets/writing.png",
-      title: "Also",
-      desc: ["Troubleshoot and debug applications", "Conduct functional and non-functional testing.", "Experience with automated testing suites, Jest.", "Follow new and emerging technologies.", "Refactoring, rewriting, and evolving software."],
-      img:
-        "alsoApplication.webp",
     },
   ];
 
@@ -70,9 +50,6 @@ export default function Works() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  {/* <div className="imgContainer">
-                    <img src={d.icon} alt="logo" />
-                  </div> */}
                   <h2>{d.title}</h2>
                   <ol>
                     {d.desc.map(x => {

@@ -5,11 +5,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import PinDropIcon from '@material-ui/icons/PinDrop';
 export default function Contact() {
     return (
-        <div className="contact" id="contact">
-        
+        <div className="contact" id="contact">     
             <div className="left">
-                {/* <img src="assets/worker.svg" /> */}
-
             </div>
             <div className="right">
                 <h1>Let's work together</h1>
@@ -40,13 +37,8 @@ export default function Contact() {
                         <PinDropIcon className="icon" id="pinIcon" />
                         <span>Salt Lake City, Utah</span>
                     </li>
-
-
                 </ul>
-                
-
             </div>
-     
         </div>
     )
 }

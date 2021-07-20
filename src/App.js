@@ -7,7 +7,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/contact";
 import Menu from "./components/menu/Menu";
 import AboutMe from "./components/aboutMe/aboutMe";
-import "./app.scss"
+import "./app.scss";
 
 function App() {
   const [navOpen, setNavOpen] = useState(false)
@@ -26,5 +26,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

@@ -12,13 +12,9 @@ function generatePosition() {
         left = Math.ceil(Math.random() * (300 - 50) + 50);
     }
     else {
-        top = Math.ceil(Math.random() * (200 - 50) + 50);
+        top = Math.ceil(Math.random() * (180 - 50) + 50);
         left = Math.ceil(Math.random() * (1000 - 50) + 50);
     }
-    // console.log({
-    //     top: top + "px",
-    //     left: left + "px"
-    // })
     return {
         position: "absolute",
         width: "65px",
@@ -36,16 +32,6 @@ export default function Testimonials() {
         height: "65px",
         margin: "20px",
     }
-    // const caughtState = {
-    //     backgroundColor: "black",
-    //     opacity: 0.3,
-    //     width: "45px",
-    //     height: "45px",
-    //     margin: "20px",
-    //     caught: true
-    // }
-
-
     const [boxStyle1, setBoxStyle1] = useState(flexState);
     const [boxStyle2, setBoxStyle2] = useState(flexState);
     const [boxStyle3, setBoxStyle3] = useState(flexState);
@@ -56,24 +42,10 @@ export default function Testimonials() {
     const [boxStyle8, setBoxStyle8] = useState(flexState);
     const [boxStyle9, setBoxStyle9] = useState(flexState);
     const [boxStyle10, setBoxStyle10] = useState(flexState);
-
-    // function resetIcons() {
-    //     console.log('lol')
-    //     setBoxStyle1(flexState)
-    //     setBoxStyle2(flexState)
-    //     setBoxStyle3(flexState)
-    //     setBoxStyle4(flexState)
-    //     setBoxStyle5(flexState)
-    //     setBoxStyle6(flexState)
-    //     setBoxStyle7(flexState)
-    //     setBoxStyle8(flexState)
-    //     setBoxStyle9(flexState)
-    //     setBoxStyle10(flexState)
-    // }
     
     return (
         <div className="testimonials" id="testimonials">
-            <h1>Skills</h1>
+            <h1 style={{marginTop: "10px"}}>Skills</h1>
             <div className="wrapper">
                 <img key={1} style={boxStyle1} className="skillBox" src={skillsIcons.react}  alt="logo" onMouseOver={() => {(!boxStyle1.caught && setTimeout(() => {setBoxStyle1(generatePosition())}, 100) )}}/>
                 <img key={2} style={boxStyle2} className="skillBox" src={skillsIcons.bootstrap}  alt="logo" onMouseOver={() => {(!boxStyle2.caught && setTimeout(() => {setBoxStyle2(generatePosition())}, 100) )}}/>
