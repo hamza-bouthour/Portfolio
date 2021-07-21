@@ -46,14 +46,15 @@ export default function Portfolio() {
             default :
                 setData(allData)
         }
-    }, [selected, allData ])
+    }, [selected])
     return (
         <div className="portfolio" id="portfolio">
             <h1>Portfolio</h1>
             <ul>
-                {list.map(item => {
+                {list.map((item, i) => {
                     return (
                         <PortfolioList 
+                            key={i}
                             id={item.id} 
                             title={item.title} 
                             active={selected === item.id}
@@ -63,17 +64,17 @@ export default function Portfolio() {
                 })}
             </ul>
             <div className="container">
-                {data.map(item => {
+                {data.map((item, key) => {
                     return (
-                        <div className="wrapper">
+                        <div key={key} className="wrapper">
                             <a className="item" href={item.repo} target="_blank" rel="noreferrer">
                                 <img src={item.image} alt="logo"/>
                                 <h3>{item.title}</h3>
                             </a>
                             <div className="techContainer">
-                                {item.technologies.map(tech => {
+                                {item.technologies.map((tech, i) => {
                                     return (
-                                        <img src={tech.image} alt="logo"/>
+                                        <img key={i} src={tech.image} alt="logo"/>
                                     )
                                 })}
                             </div>

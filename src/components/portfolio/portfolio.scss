@@ -67,7 +67,6 @@
                 cursor: pointer;
                 -webkit-box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.83); 
                 box-shadow: 2px 4px 15px 3px rgba(0,0,0,0.83);
-                animation: myAnim 1s ease 0s 1 normal forwards;
                 @include mobile {
                     width: 130px;
                     height: 100px;

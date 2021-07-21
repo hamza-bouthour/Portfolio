@@ -2,7 +2,6 @@ import "./contact.scss";
 import {Person, Mail} from "@material-ui/icons";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import PinDropIcon from '@material-ui/icons/PinDrop';
 export default function Contact() {
     return (
         <div className="contact" id="contact">     
@@ -32,10 +31,6 @@ export default function Contact() {
                             <GitHubIcon className="icon" id="githubIcon"/>
                             <span>Github</span>
                         </a>
-                    </li>
-                    <li className="itemContainer">
-                        <PinDropIcon className="icon" id="pinIcon" />
-                        <span>Salt Lake City, Utah</span>
                     </li>
                 </ul>
             </div>

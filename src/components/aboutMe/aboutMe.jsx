@@ -11,15 +11,15 @@ export default function AboutMe() {
             <div className="left">
                 <div className="imgWrapper">
                     <div className="imgContainer">
-                        <img src="assets/music1.jpg" alt="music" /> 
+                        <img src="assets/music10.jpg" alt="music" /> 
                     </div>
                     <div className="imgContainer">
-                        <img src="assets/music23.jpg" alt="music" /> 
+                        <img src="assets/music20.jpg" alt="music" /> 
                     </div>
                 </div>
                 <div className="textContainer">
                     <h1>Hello again,</h1>
-                    <p> I'm a guitar player for over 20 years. I performed actively in front of a large or small audience and wrote music of many genres. My dedication to Music came along with determination, perseverance, self-discipline and reliability. I learned to work well as part of a team, and to be effectively detailed. My passion and discipline leaned towards programming, a field where i can still use my creativity and my personal skills to design beautiful and dynamic applications.
+                    <p>I've been a guitar player for over 20 years. I performed actively in front of large and small audiences. I also wrote music for many different genres. My dedication to music helped me become determined, allowed me to persevere, gave me self-discipline, and made me reliable. I learned to work efficiently as part of a team and be effectively detailed. My passion and discipline brought me to programming. In this field, I can still use my creativity and my personal skills to design beautifully dynamic applications.
                     </p>
                 </div> 
             </div>
