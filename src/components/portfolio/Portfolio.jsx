@@ -28,7 +28,7 @@ const list = [
 export default function Portfolio() {
     const [selected, setSelected] = useState("featured");
     const [data, setData] = useState([]);
-    const allData = backendPortfolio.concat(mobilePortfolio, webPortfolio);
+    // const allData = backendPortfolio.concat(mobilePortfolio, webPortfolio);
     useEffect(() => {
         switch(selected) {
             case "backend":
@@ -41,10 +41,10 @@ export default function Portfolio() {
                 setData(mobilePortfolio)
                 break;
             case "featured":
-                setData(allData)
+                setData(backendPortfolio.concat(mobilePortfolio, webPortfolio))
                 break;
             default :
-                setData(allData)
+                setData(backendPortfolio.concat(mobilePortfolio, webPortfolio))
         }
     }, [selected])
     return (
