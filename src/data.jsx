@@ -58,6 +58,24 @@ export const backendPortfolio = [
                 image: skillsIcons.mysql
             },
         ]
+    },
+    {
+        id: 2,
+        title: "GIGIT",
+        image: "assets/backend2.jpg",
+        repo: "https://github.com/hamza-bouthour/GigitServerV2",
+        technologies: [
+            {
+                id: 1,
+                name: "Express",
+                image: skillsIcons.express
+            },
+            {
+                id: 2,
+                name: "MySQL",
+                image: skillsIcons.mysql
+            },
+        ]
     }
 ]
 export const mobilePortfolio = [
@@ -140,8 +158,41 @@ export const webPortfolio = [
     {
         id: 2,
         title: "GigIt",
-        image: "assets/reactGigit.png",
-        repo: "https://github.com/hamza-bouthour/gigI--Client",
+        image: "assets/Reactgigit2.PNG",
+        repo: "https://gigitv2.netlify.app",
+        technologies: [
+            {
+                id: 1,
+                name: "React",
+                image: skillsIcons.react
+            },
+            {
+                id: 2,
+                name: "Bootstrap",
+                image: skillsIcons.bootstrap
+            },
+            {
+                id: 3,
+                name: "Sass",
+                image: skillsIcons.sass
+            },
+            {
+                id: 4,
+                name: "Redux",
+                image: skillsIcons.redux
+            },
+            {
+                id: 5,
+                name: "MySQL",
+                image: skillsIcons.mysql
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "Nucamp",
+        image: "assets/reactNucamp.png",
+        repo: "https://github.com/hamza-bouthour/react-nucamp",
         technologies: [
             {
                 id: 1,
@@ -166,20 +217,15 @@ export const webPortfolio = [
         ]
     },
     {
-        id: 3,
-        title: "Nucamp",
-        image: "assets/reactNucamp.png",
-        repo: "https://github.com/hamza-bouthour/react-nucamp",
+        id: 4,
+        title: "Whisper",
+        image: "assets/reactchat.PNG",
+        repo: "https://whisperv2.netlify.app/",
         technologies: [
             {
                 id: 1,
                 name: "React",
                 image: skillsIcons.react
-            },
-            {
-                id: 2,
-                name: "Bootstrap",
-                image: skillsIcons.bootstrap
             },
             {
                 id: 3,
